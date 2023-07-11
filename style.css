@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    line-height: 1.7em;
+    background-color:#e0b130;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    max-width: 1100px;
+    margin:auto;
+}
+
+.lead{
+    font-size: 16px;
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+.btn{
+    display: inline-block;
+    padding: 07px 16px;
+    background: #8b390a
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 03px;
+
+    transition: all 0.3;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Close Utality Classes */
+
+#navbar{
+    background: #8b390a;
+    overflow: auto;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #e0b130;
+    transition: all 0.5s;
+}
+
+/* Showcase Area */
+#showcase{
+    background:
+    center center/cover;
+    height: 440px;
+    color: #fff;
+}
+
+.showcase-content{
+    padding-top: 170px;
+    color: #8b390a;
+}
+
+.showcase-content h2{
+   font-size: 60px;
+   line-height: 1.8em;
+ }
+
+ .showcase-content p{
+    font-size: 19px;
+
+    margin-bottom: 25px;
+ }
+
+ .showcase-content .btn:hover{
+    background: #f5b82a;
+    border: none;
+    color:#8b390a;
+    transition: all 0.3s;
+ }
+
+/* INDIA Section */
+
+ .INDIA{
+    height: 250px;
+    font-size:larger;
+    margin-top: 40px;
+    color:#8b390a
+ }
+
+ .INDIA  {
+    width: 100%;
+    border-bottom: 2px solid 
+    color:#8b390a
+ }
+
+ .INDIA {
+
+     
+    padding: 10px 22px;
+    color:#8b390a
+    text-align: center;
+    display: inline-block;
+ }
+/* Close */
+
+/* ITALY SECTION */
+.ITALY{
+    height: 250px;
+font-size: larger;
+    margin-top: 40px;
+    color:#8b390a
+ }
+
+ .ITALY  {
+    width: 100%;
+    border-bottom: 2px solid 
+    color:#8b390a
+ }
+
+ .ITALY {
+
+     
+    padding: 10px 22px;
+    color:#8b390a
+    text-align: center;
+    display: inline-block;
+ }
+/* Close */
+
+
+/*  EGYPT SECTION */
+.EGYPT{
+    height: 250px;
+font-size: larger;
+    margin-top: 40px;
+    color:#8b390a
+ }
+
+ .EGYPT  {
+    width: 100%;
+    border-bottom: 2px solid 
+    color:#8b390a
+ }
+
+ .EGYPT {
+
+     
+    padding: 10px 22px;
+    color:#8b390a
+    text-align: center;
+    display: inline-block;
+ }
+/* Close */
+
+
+
+/* Contact Us */
+#contact h3{
+    width: 100%;
+    border-bottom: 0.5px solid #8b390a;;
+    margin-bottom: 35px;
+}
+
+.btn {
+    background-color: #8b390a;
+    color: #f5b82a;
+
+
+}
+
+#contact h3 span{
+    background: #8b390a;
+    padding: 10px 22px;
+    color: #f5b82a;
+    text-align: center;
+    display: inline-block;
+}
+
+#contact .form-group{
+    margin-bottom: 20px;
+}
+
+.contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8b390a;
+}
+
+#contact textarea{
+    height: 100px;
+    width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline: none;
+    border-color: #8b390a;
+}
+
+
+/* Footer */
+
+#main-footer{
+    background:#8b390a;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color:#f7c245;
+}
